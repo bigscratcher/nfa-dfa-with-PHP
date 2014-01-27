@@ -8,13 +8,13 @@ Explanation example:
 		Positions: 0, 1, 2, 3, 4
 		Alphabet:  a, b
  
-ex. "0.b" => [] ------- From the position 0 with "b" go to empty - not necessary to work
-ex.	"0.a" => [1,2]  ----From the position 0 with "a" go to 1 AND 2 - Can go to multiple 
-						position
-ex. "S.0.a" => [1,2] ---Field 0 is a "start" field and with "a" go to positions 1 AND 2
-ex. "S.F.0.a" => [1] ---Field 0 is a "start" and "finish" field in the same time and 
-						with "a" go to position 1
-ex. "1,2,3.a" => [5] ---From the complex field 1,2,3 with "a" go to 5
+ex. "0.b" => [] ------- From the position 0 with "b" go to empty - not necessary to work <br>
+ex.	"0.a" => [1,2]  ----From the position 0 with "a" go to 1 AND 2 - Can go to multiple <br>
+						position <br>
+ex. "S.0.a" => [1,2] ---Field 0 is a "start" field and with "a" go to positions 1 AND 2 <br>
+ex. "S.F.0.a" => [1] ---Field 0 is a "start" and "finish" field in the same time and <br>
+						with "a" go to position 1 <br>
+ex. "1,2,3.a" => [5] ---From the complex field 1,2,3 with "a" go to 5 <br>
 
 * Specific example of graph where finishing field have no alphabet branches in NFA graph, 
 you must initialy state which finishing positions are.

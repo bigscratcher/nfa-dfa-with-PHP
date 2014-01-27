@@ -1,0 +1,15 @@
+.display_list, .graph{
+	list-style: none;
+	display: inline-block;
+}
+.graph { 
+	width: 220px;
+	font-family: monospace;
+}
+.display_list > li, .graph > li{
+	float: left;	
+	margin: 0 10px;
+}
+.graph li{
+	width: 85px;
+}
